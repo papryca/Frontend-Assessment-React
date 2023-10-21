@@ -14,8 +14,8 @@ module.exports = {
       colors: {
         'purple': '#7e77e5',
         'gray': {
-          100: '#4A4A4A',
-          900: '#1a202c',
+          dark: '#4A4A4A',
+          soft: '##999999',
         }
       },
       backgroundColor: {
@@ -24,9 +24,14 @@ module.exports = {
           '4xl': '2rem',
         },
         fontSize: {
-          'sm': ['14px', '20px'],
-          'base': ['16px', '24px'],
-        },
+          sm: '0.8rem',
+          base: '1rem',
+          xl: '1.25rem',
+          '2xl': '1.563rem',
+          '3xl': '1.953rem',
+          '4xl': '2.441rem',
+          '5xl': '3.052rem',
+        }
       },
       fontFamily: {
         'primary': ['Plus Jakarta Sans', 'sans-serif'],
