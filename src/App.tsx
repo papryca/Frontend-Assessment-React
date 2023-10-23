@@ -6,6 +6,7 @@ import Logout from "./pages/logout/logout";
 import Profile from "./pages/profile/profile";
 import Negotiation from "./pages/negotiation/negotiation";
 import Insurance from "./pages/insurance/insurance";
+import BillSummary from "@pages/bill-summary/bill-summary";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/negotiation" element={<Negotiation />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/logout" element={<Logout />} />
+                <Route path="/bill-summary/:id" element={<BillSummary />} />
               </Routes>
             </main>
           </div>

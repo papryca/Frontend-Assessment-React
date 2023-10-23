@@ -1,13 +1,9 @@
 import React from "react";
-import {faHome, faComment,faRightFromBracket,faCircleUser,faFileLines} from '@fortawesome/free-solid-svg-icons';
+import {faHome, faCommentMedical,faRightFromBracket,faCircleUser,faFileLines} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {IMenuRoute} from "../../interfaces/menu-route";
 
-interface IMenuRoute {
-  index: number;
-  icon: React.ReactElement;
-  label: string;
-  link: string;
-}
+
 
 type RouteDictionary = Record<string, IMenuRoute>;
 
@@ -26,7 +22,7 @@ const routes: RouteDictionary = {
   },
   negotiation: {
     index: 3,
-    icon: <FontAwesomeIcon icon={faComment} />,
+    icon: <FontAwesomeIcon icon={faCommentMedical} />,
     label: "Negotiation",
     link: "/negotiation",
   },
