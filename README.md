@@ -36,7 +36,7 @@ To set up and run the project locally, follow these steps:
 
 The application will open in your default browser, allowing you to explore and interact with it.
 
-### 'Screenshot'
+### `Screenshot`
 
 ![docs/page1.png](docs/page1.png)
 ![docs/page1.png](docs/page2.png)
