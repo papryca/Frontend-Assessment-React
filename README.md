@@ -19,31 +19,18 @@ In the project directory, you can run:
 ### `npm start` ▶️
 
 Runs the app in the development mode.\
-Open [http://localhost:8080/](http://localhost:8080/) to view it in the browser.
+Open [http://localhost:3000/](http://localhost:3000/) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `testing deployment` ▶️
 
-### `npm test` 🧪
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build` 🏗️
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run lint` 🔍
-
-Runs ESLint to analyze and identify lint errors in the codebase.
+Open [https://precious-mochi-becaaa.netlify.app/](https://precious-mochi-becaaa.netlify.app/) to view it in the browser.
 
 ## 🚀 Getting Started
 
 To set up and run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/RoierS/eCommerce-Application.git`
-2. Navigate to the project directory: `cd css-selector`
+1. Clone the repository: `git clone git@github.com:papryca/Frontend-Assessment-React.git`
+2. Navigate to the project directory: `cd truffle-health`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
