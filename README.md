@@ -38,4 +38,5 @@ The application will open in your default browser, allowing you to explore and i
 
 ### 'Screenshot'
 
-![Keyboard:](docs/css_selector.png)
+![docs/page1.png](docs/page1.png)
+![docs/page1.png](docs/page2.png)
