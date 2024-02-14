@@ -14,12 +14,12 @@ const BillSummary = () => {
         <div>
           <Menu></Menu>
         </div>
-        <div>
+        <div className='w-full'>
           <Header props={<Breadcrumbs />} />
           <div className='flex-none md:flex my-5'>
             <div className='flex w-full md:w-2/3 mx-5 flex-col'>
               <ServiceAccordion></ServiceAccordion>
-              <div className='flex flex-row-reverse hidden md:block'>
+              <div className='flex flex-row-reverse hidden md:block absolute left-62 -bottom-1'>
                 <img src={pig} className='w-40 h-40 -bottom-1/3 right-10' alt="Pig illustration" />
               </div>
 
