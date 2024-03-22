@@ -1,10 +1,9 @@
 import Menu from "@components/menu/menu";
 import Header from "@components/header/header";
 import HeaderPart from "@components/header-part/header-part";
-import Profile from "@components/profile/profile";
-import MainProfile from "@components/profile/main-profile";
+import Payment from "@components/schedule/schedule";
 
-const ProfilePage = () => {
+const Appointments = () => {
   return (
     <div className='bg-page-background'>
       <div className='flex'>
@@ -13,11 +12,9 @@ const ProfilePage = () => {
         </div>
         <div className='w-full'>
           <Header props={<HeaderPart/>}></Header>
-          <div className='flex-none md:flex box-border'>
-            <MainProfile></MainProfile>
-            <Profile></Profile>
+          <div className='flex-none my-5 mr-5 box-border'>
+            <Payment></Payment>
           </div>
-
         </div>
       </div>
 
@@ -25,4 +22,4 @@ const ProfilePage = () => {
   );
 };
 
-export default ProfilePage;
+export default Appointments;

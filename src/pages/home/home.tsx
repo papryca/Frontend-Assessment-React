@@ -1,7 +1,7 @@
 import Menu from "@components/menu/menu";
 import Header from "@components/header/header";
-import Main from "@components/main/main";
 import Aside from "@components/aside/aside";
+import HomeSection from "@components/home-section/home-section";
 import HeaderPart from "@components/header-part/header-part";
 
 const Home = () => {
@@ -14,12 +14,11 @@ const Home = () => {
         <div>
           <Header props={<HeaderPart />}></Header>
           <div className='flex-none md:flex my-5 box-border'>
-            <Main></Main>
+            <HomeSection></HomeSection>
             <Aside></Aside>
           </div>
         </div>
       </div>
-
     </div>
 
   )

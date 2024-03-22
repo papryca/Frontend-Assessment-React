@@ -5,7 +5,7 @@ export interface IBillOverview {
   providersName: string;
   visitDate: string,
   visitDue: string,
-  type: string,
+  status: string,
   owe: string;
   category: string;
 }

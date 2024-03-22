@@ -1,11 +1,15 @@
 import React from "react";
 import cards from "@components/card/card-tabs";
 import {Link} from "react-router-dom";
+import {ICard} from "../../interfaces/tabs-card";
 
-const Card = () => {
+interface CardProps {
+  card: ICard
+}
+
+const Card = ({card}: CardProps) => {
   return (
     <div>
-      {cards.map((card) => (
         <div className="flex bg-white rounded-lg  mb-2.5">
           <div className="w-32 h-32 rounded-lg relative m-4 ring-1 ring-purple-medium shadow-custom">
             <img src={card.bill} alt="bill image" className="absolute w-full h-full rounded-lg"/>
@@ -43,10 +47,14 @@ const Card = () => {
               </div>
             </div>
             <div className="my-2 text-sm p-2 bg-page-background rounded-lg">
-              <div className=" space-x-4 flex justify-between">?saving opportunities
+              <div className=" space-x-4 flex justify-between font-semibold">
+                <a href="#"
+                   className="text-red-bright inline-block bg-red-soft opacity-50 rounded-md text-sm p-1">
+                  Unpaid
+                </a>
                 <Link to={`/bill-summary/${card.index}`}>
-                <button type="button"
-                        className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-1 text-center">
+                  <button type="button"
+                          className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-1 text-center">
                   Check It
                 </button>
                   </Link>
@@ -54,7 +62,6 @@ const Card = () => {
             </div>
           </form>
         </div>
-      ))}
     </div>
 
   );

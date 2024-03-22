@@ -18,10 +18,6 @@ const BillOverview = () => {
           return (
             <div key={i} className='bg-white rounded-lg p-3 text-base relative'>
               <p className='text-sm text-gray-dark py-4'>BILL OVERVIEW</p>
-              <a href="#"
-                 className="text-red-bright inline-block bg-red-soft opacity-50 rounded-md underline text-sm p-2 mb-4">
-                Doesn't match my bill?
-              </a>
               <img src={overview.bill} alt="Bill image" className="w-full h-80 rounded-lg" />
               <div className='flex space-x-2 pt-2 items-baseline text-sm'>
                 <img src={hospital} alt="Hospital image" className="w-4 h-4" />
@@ -37,9 +33,9 @@ const BillOverview = () => {
                   <p>{overview.name}</p>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={global} alt="Hospital image" className="w-4 h-4" />
-                    <p className='text-sm text-gray-soft'>Provider's type</p>
+                    <p className='text-sm text-gray-soft'>Status</p>
                   </div>
-                  <p>In-network</p>
+                  <p>{overview.status}</p>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={money} alt="You owe" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>You owe</p>

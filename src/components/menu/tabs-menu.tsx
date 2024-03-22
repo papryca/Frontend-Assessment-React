@@ -17,13 +17,13 @@ const routes: RouteDictionary = {
   insurance: {
     index: 2,
     icon: <FontAwesomeIcon icon={faFileLines} />,
-    label: "Insurance",
+    label: "Bills",
     link: "/insurance",
   },
   negotiation: {
     index: 3,
     icon: <FontAwesomeIcon icon={faCommentMedical} />,
-    label: "Negotiation",
+    label: "Appointments",
     link: "/negotiation",
   },
   profile: {

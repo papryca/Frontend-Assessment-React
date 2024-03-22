@@ -5,7 +5,7 @@ const Header = ({ props }: { props?: React.ReactNode }) => {
   return (
     <nav
       className="w-full">
-      <div className="max-w-screen-xl flex items-center justify-between mx-5 flex-col flex-col-reverse md:flex-row">
+      <div className="max-w-screen-xl flex items-center justify-between mx-5 flex-col md:flex-row">
         <div>
           {props}
         </div>
@@ -16,7 +16,7 @@ const Header = ({ props }: { props?: React.ReactNode }) => {
               <a href="#"
                  className=" pl-3 pr-4 hover:text-gray-dark  text-gray-soft">
                 <FontAwesomeIcon className='mr-3' icon={ faSackDollar}/>
-                My Savings</a>
+                Expenses</a>
             </li>
             <li>
               <a href="#"
@@ -34,7 +34,7 @@ const Header = ({ props }: { props?: React.ReactNode }) => {
               <button type="button"
                       className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-2 text-center">
                 <FontAwesomeIcon className='mr-3' icon={faPlus}/>
-                Check bill
+                Add bill
               </button>
             </li>
           </ul>

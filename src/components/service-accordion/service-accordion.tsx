@@ -44,11 +44,8 @@ const ServiceAccordion = () => {
       ))}
       <button type="button"
               className="text-white bg-purple text-xl rounded-lg w-full text-sm px-4 py-2 text-center">
-        Let Truffle help you negotiate!
+        Let BeAware help you!
       </button>
-      <a href="#"
-         className=" hover:text-gray-dark text-purple block underline text-sm pb-2 pt-5 text-center">
-        How does Truffle help my negotiation?</a>
     </div>
 
   );

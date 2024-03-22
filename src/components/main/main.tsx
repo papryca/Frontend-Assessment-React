@@ -4,13 +4,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import Card from "@components/card/card";
-import Advertisement from "@components/advertisement/advertisement";
+import money from "@assets/images/money.svg";
 import cards from "@components/card/card-tabs";
 
 const Main = () => {
   return (
-    <div className='lg:w-3/5 px-5 box-border'>
-      <Advertisement></Advertisement>
+    <div className='lg:w-2/3 px-5 box-border'>
       <p className='text-2xl'>My bills</p>
       <div>
         <ul
@@ -24,13 +23,7 @@ const Main = () => {
           <li>
             <button type="button"
                     className="text-gray-soft bg-white font-medium rounded-lg text-sm px-4 py-2 text-center">
-              Unchecked bills(3)
-            </button>
-          </li>
-          <li>
-            <button type="button"
-                    className="text-gray-soft bg-white font-medium rounded-lg text-sm px-4 py-2 text-center">
-              In negotiation bills(1)
+              Unpaid bills(3)
             </button>
           </li>
           <li>
@@ -42,7 +35,7 @@ const Main = () => {
           <FontAwesomeIcon icon={faAngleRight} className='m-auto text-purple'/>
         </ul>
       </div>
-      <Card/>
+      {cards.map(card =><Card card={card}/> )}
     </div>
 
   );

@@ -1,23 +1,23 @@
 import Menu from "@components/menu/menu";
 import Header from "@components/header/header";
 import HeaderPart from "@components/header-part/header-part";
-import Profile from "@components/profile/profile";
-import MainProfile from "@components/profile/main-profile";
+import Main from "@components/main/main";
+import Aside from "@components/aside/aside";
+import Statistic from "@components/statistic/statistic";
 
-const ProfilePage = () => {
+const Bills = () => {
   return (
     <div className='bg-page-background'>
       <div className='flex'>
         <div>
           <Menu></Menu>
         </div>
-        <div className='w-full'>
+        <div>
           <Header props={<HeaderPart/>}></Header>
-          <div className='flex-none md:flex box-border'>
-            <MainProfile></MainProfile>
-            <Profile></Profile>
+          <div className='flex-none md:flex my-5 box-border'>
+            <Main></Main>
+            <Statistic></Statistic>
           </div>
-
         </div>
       </div>
 
@@ -25,4 +25,4 @@ const ProfilePage = () => {
   );
 };
 
-export default ProfilePage;
+export default Bills;
