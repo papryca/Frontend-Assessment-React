@@ -35,7 +35,7 @@ const Instruction = () => {
           </div>
           <div className='my-2 flex space-x-4'>
             <FontAwesomeIcon icon={faCheck} className='m-0  p-1 w-3 h-3 rounded-full bg-purple text-white '/>
-            <p className='text-base text-gray-dark line-through decoration-purple decoration-2'>Yoy are aware</p>
+            <p className='text-base text-gray-dark line-through decoration-red decoration-2'>Yoy are aware</p>
           </div>
         </div>
       )}

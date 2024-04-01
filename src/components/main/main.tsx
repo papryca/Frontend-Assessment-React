@@ -35,7 +35,7 @@ const Main = () => {
           <FontAwesomeIcon icon={faAngleRight} className='m-auto text-purple'/>
         </ul>
       </div>
-      {cards.map(card =><Card card={card}/> )}
+      {cards.map(card =><Card card={card} key={card.index}/> )}
     </div>
 
   );

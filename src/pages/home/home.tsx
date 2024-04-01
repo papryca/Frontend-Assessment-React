@@ -6,7 +6,7 @@ import HeaderPart from "@components/header-part/header-part";
 
 const Home = () => {
   return (
-    <div className='bg-page-background'>
+    <div className='bg-page-background dark:bg-red'>
       <div className='flex'>
         <div>
           <Menu></Menu>
