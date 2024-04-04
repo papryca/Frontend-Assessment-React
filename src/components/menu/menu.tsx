@@ -33,11 +33,11 @@ const Menu = () => {
   }, []);
   return (
     <div>
-      <div className={`flex w-16 ${isMenuOpen ? 'lg:w-60' : 'lg:w-16'} duration-300`}>
+      <div className={`flex w-16 ${isMenuOpen ? 'lg:w-60' : 'lg:w-16'} duration-300 dark:bg-article-background-dark`}>
       </div>
-      <div className='fixed'>
+      <div className='fixed '>
         <div
-          className={`border-r border-gray-soft h-screen pr-4 flex flex-col justify-between w-16 ${isMenuOpen ? 'lg:w-60' : 'lg:w-16'} duration-300 relative`}>
+          className={`border-r border-gray-soft pr-4 h-screen flex flex-col justify-between w-16 ${isMenuOpen ? 'lg:w-60' : 'lg:w-16'} duration-300 relative dark:bg-article-background-dark`}>
           <div className='overflow-y-auto'>
             <LogoImage className="w-10 h-10 mt-5 ml-1 mb-8"/>
             <MenuRoute key={routes.home.link} to={routes.home.link} icon={routes.home.icon} label={routes.home.label} theme={theme}/>

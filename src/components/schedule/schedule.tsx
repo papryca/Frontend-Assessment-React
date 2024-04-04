@@ -14,7 +14,7 @@ const TdStyle = {
 }
 const Schedule =() => {
   return (
-    <div className='px-5 box-border dark:bg-page-background-dark h-screen w-full'>
+    <div className='px-5 box-border dark:bg-page-background-dark h-full'>
       <p className='text-2xl dark:text-gray-soft'>Schedule</p>
       <div>
         <ul

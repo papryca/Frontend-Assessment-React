@@ -10,7 +10,7 @@ const Appointments = () => {
         <div>
           <Menu></Menu>
         </div>
-        <div className='w-screen'>
+        <div className='w-screen h-screen'>
           <Header props={<HeaderPart/>}></Header>
           <div className='flex-none w-full mr-5 box-border'>
             <Payment></Payment>

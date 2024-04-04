@@ -13,7 +13,7 @@ const Home = () => {
         </div>
         <div className='bg-page-background dark:bg-page-background-dark'>
           <Header props={<HeaderPart />}></Header>
-          <div className='flex-none md:flex my-5 box-border bg-page-background dark:bg-page-background-dark pr-4'>
+          <div className='flex-none mx-2 md:flex md:flex-row md:justify-between sm:flex sm:flex-col sm:gap-3  my-5 box-border bg-page-background dark:bg-page-background-dark'>
             <HomeSection></HomeSection>
             <Aside></Aside>
           </div>
