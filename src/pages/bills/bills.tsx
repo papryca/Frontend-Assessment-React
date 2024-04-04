@@ -2,7 +2,6 @@ import Menu from "@components/menu/menu";
 import Header from "@components/header/header";
 import HeaderPart from "@components/header-part/header-part";
 import Main from "@components/main/main";
-import Aside from "@components/aside/aside";
 import Statistic from "@components/statistic/statistic";
 
 const Bills = () => {

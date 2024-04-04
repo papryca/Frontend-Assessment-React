@@ -4,7 +4,7 @@ import face2 from "@assets/images/face2.png";
 import face3 from "@assets/images/face3.png";
 import cards from "@components/card/card-tabs";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleRight, faPlus} from "@fortawesome/free-solid-svg-icons";
+import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 
 const TdStyle = {
   ThStyle: `w-1/6 min-w-[160px] border py-4 px-3 text-lg font-medium text-grey lg:py-7 lg:px-4 dark:border-white`,

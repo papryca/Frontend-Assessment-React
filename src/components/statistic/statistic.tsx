@@ -1,6 +1,5 @@
 import React from "react";
 import coins from "@assets/images/coins.svg";
-import user from "@assets/images/user.png";
 
 const Statistic = () => {
   return (

@@ -2,7 +2,7 @@ import face1 from "@assets/images/face1.png";
 import face2 from "@assets/images/face2.png";
 import face3 from "@assets/images/face3.png";
 import face4 from "@assets/images/face4.png";
-import {faAngleDown, faPlus} from '@fortawesome/free-solid-svg-icons';
+import {faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React, {useState} from "react";
 

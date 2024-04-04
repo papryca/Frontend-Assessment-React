@@ -7,8 +7,6 @@ const LineChart = () => {
 
   useEffect(() => {
     const documentStyle = getComputedStyle(document.documentElement);
-    const textColor = documentStyle.getPropertyValue('--text-color');
-    const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
     const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
     const data = {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],

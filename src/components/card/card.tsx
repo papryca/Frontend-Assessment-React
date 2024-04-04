@@ -1,5 +1,4 @@
 import React from "react";
-import cards from "@components/card/card-tabs";
 import {Link} from "react-router-dom";
 import {ICard} from "../../interfaces/tabs-card";
 

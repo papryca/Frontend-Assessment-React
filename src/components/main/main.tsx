@@ -4,7 +4,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import Card from "@components/card/card";
-import money from "@assets/images/money.svg";
 import cards from "@components/card/card-tabs";
 
 const Main = () => {
