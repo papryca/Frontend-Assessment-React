@@ -9,7 +9,7 @@ import React from "react";
 
 const BillSummary = () => {
   return (
-    <div className='bg-page-background'>
+    <div className='bg-page-background dark:bg-page-background-dark'>
       <div className='flex'>
         <div>
           <Menu></Menu>

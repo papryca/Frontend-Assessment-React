@@ -35,14 +35,14 @@ const LineChart = () => {
       plugins: {
         legend: {
           labels: {
-            color: textColor
+            color: '#999999'
           }
         }
       },
       scales: {
         x: {
           ticks: {
-            color: textColorSecondary
+            color: '#999999'
           },
           grid: {
             color: surfaceBorder
@@ -50,7 +50,7 @@ const LineChart = () => {
         },
         y: {
           ticks: {
-            color: textColorSecondary
+            color: '#999999'
           },
           grid: {
             color: surfaceBorder
@@ -65,8 +65,8 @@ const LineChart = () => {
 
   return (
     <div className="card">
-      <div>Compare your expenses</div>
-      <Chart type="line" data={chartData} options={chartOptions}/>
+      <div className='pb-5 dark:text-white'>Compare your expenses</div>
+      <Chart className='bg-white dark:bg-article-background-dark' type="line" data={chartData} options={chartOptions}/>
     </div>
   );
 };

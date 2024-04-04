@@ -6,14 +6,14 @@ import HeaderPart from "@components/header-part/header-part";
 
 const Home = () => {
   return (
-    <div className='bg-page-background dark:bg-red'>
+    <div className='bg-page-background dark:bg-page-background-dark'>
       <div className='flex'>
         <div>
           <Menu></Menu>
         </div>
-        <div>
+        <div className='bg-page-background dark:bg-page-background-dark'>
           <Header props={<HeaderPart />}></Header>
-          <div className='flex-none md:flex my-5 box-border'>
+          <div className='flex-none md:flex my-5 box-border bg-page-background dark:bg-page-background-dark pr-4'>
             <HomeSection></HomeSection>
             <Aside></Aside>
           </div>

@@ -24,8 +24,12 @@ module.exports = {
                     'soft': '#b9d7a8',
                     'bright':'#407922'
                 },
+                'text': {
+                    'light': '#ffffff',
+                    'dark':'#407922'
+                },
                 'red': '#e86a74',
-                'red-soft':'#f5b7ba',
+                'red-soft':'#e3918d',
                 'red-bright':'#e0202c'
             },
             boxShadow: {
@@ -33,6 +37,8 @@ module.exports = {
             },
             backgroundColor: {
                 'page-background': '#F6F6FE',
+                'page-background-dark': '#121212',
+                'article-background-dark': '#181818',
             },
             borderRadius: {
                 '4xl': '2rem',

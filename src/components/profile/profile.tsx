@@ -8,14 +8,14 @@ import React from "react";
 
 const Profile =() => {
   return (
-    <div className="bg-white rounded-lg m-10 sm:py-30">
-      <div className='flex justify-between p-6 pb-0 text-gray-soft text-sm  '>
+    <div className="bg-white rounded-lg m-10 sm:py-30 dark:bg-article-background-dark">
+      <div className='flex justify-between p-6 pb-0 text-gray-soft text-sm'>
         <p>FAMILY ACCOUNT</p>
-        <p className='hover:text-gray-dark cursor-pointer'>Edit</p>
+        <p className='hover:text-gray-dark cursor-pointer dark:hover:text-white'>Edit</p>
       </div>
       <div className="mx-auto px-6">
         <div className="max-w-2xl pt-6 pb-6">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Your family</h2>
+          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl dark:text-white">Your family</h2>
           <button type="button"
                   className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-2 text-center">
             <FontAwesomeIcon className='mr-3' icon={faPlus}/>
@@ -27,28 +27,28 @@ const Profile =() => {
             <div className="flex items-center gap-x-14 pb-6">
               <img className="h-16 w-16 rounded-full" src={face1} alt="Family memders image"/>
               <div>
-                <h3 className="font-semibold text-gray-900">John Smith</h3>
+                <h3 className="font-semibold text-gray-900 dark:text-white">John Smith</h3>
                 <p className="text-sm font-semibold text-indigo-600">Age:12</p>
               </div>
             </div>
             <div className="flex items-center gap-x-14 pb-6">
               <img className="h-16 w-16 rounded-full" src={face2} alt="Family memders image"/>
               <div>
-                <h3 className="text-base font-semibold text-gray-900">Emily Johnson</h3>
+                <h3 className="text-base font-semibold text-gray-900 dark:text-white">Emily Johnson</h3>
                 <p className="text-sm font-semibold text-indigo-600">Age:19</p>
               </div>
             </div>
             <div className="flex items-center gap-x-14 pb-6">
               <img className="h-16 w-16 rounded-full" src={face3} alt="Family memders image"/>
               <div>
-                <h3 className="text-base font-semibold text-gray-900">Michael Williams</h3>
+                <h3 className="text-base font-semibold text-gray-900 dark:text-white">Michael Williams</h3>
                 <p className="text-sm font-semibold text-indigo-600">Age:32</p>
               </div>
             </div>
             <div className="flex items-center gap-x-14 pb-6">
               <img className="h-16 w-16 rounded-full" src={face4} alt="Family memders image"/>
               <div>
-                <h3 className="text-base font-semibold text-gray-900">Sarah Brown</h3>
+                <h3 className="text-base font-semibold text-gray-900 dark:text-white">Sarah Brown</h3>
                 <p className="text-sm font-semibold text-indigo-600">Age:90</p>
               </div>
             </div>

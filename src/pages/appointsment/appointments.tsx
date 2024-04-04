@@ -5,14 +5,14 @@ import Payment from "@components/schedule/schedule";
 
 const Appointments = () => {
   return (
-    <div className='bg-page-background'>
+    <div className='bg-page-background dark:bg-page-background-dark h-full w-full'>
       <div className='flex'>
         <div>
           <Menu></Menu>
         </div>
-        <div className='w-full'>
+        <div className='w-screen'>
           <Header props={<HeaderPart/>}></Header>
-          <div className='flex-none my-5 mr-5 box-border'>
+          <div className='flex-none w-full mr-5 box-border'>
             <Payment></Payment>
           </div>
         </div>

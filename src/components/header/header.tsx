@@ -4,8 +4,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const Header = ({ props }: { props?: React.ReactNode }) => {
   return (
     <nav
-      className="w-full">
-      <div className="max-w-screen-xl flex items-center justify-between mx-5 flex-col md:flex-row">
+      className="w-full bg-page-background dark:bg-page-background-dark">
+      <div className="max-w-screen-xl flex items-center justify-between ml-5 flex-col md:flex-row">
         <div>
           {props}
         </div>
@@ -14,19 +14,19 @@ const Header = ({ props }: { props?: React.ReactNode }) => {
             className="flex items-center space-x-0 xl:space-x-6 p-4 font-sm rounded-lg">
             <li>
               <a href="#"
-                 className=" pl-3 pr-4 hover:text-gray-dark  text-gray-soft">
+                 className=" pl-3 pr-4 hover:text-gray-dark  text-gray-soft dark:hover:text-white">
                 <FontAwesomeIcon className='mr-3' icon={ faSackDollar}/>
                 Expenses</a>
             </li>
             <li>
               <a href="#"
-                 className=" pl-3 pr-4 rounded hover:text-gray-dark  text-gray-soft">
+                 className=" pl-3 pr-4 rounded hover:text-gray-dark  text-gray-soft dark:hover:text-white">
                 <FontAwesomeIcon className='mr-3' icon={faBell}/>
                 Notifications</a>
             </li>
             <li>
               <a href="#"
-                 className=" pl-3 pr-4 rounded hover:text-gray-dark  text-gray-soft">
+                 className=" pl-3 pr-4 rounded hover:text-gray-dark  text-gray-soft dark:hover:text-white">
                 <FontAwesomeIcon className='mr-3' icon={faCircleQuestion}/>
                 Help</a>
             </li>

@@ -7,14 +7,14 @@ import Statistic from "@components/statistic/statistic";
 
 const Bills = () => {
   return (
-    <div className='bg-page-background'>
+    <div className='bg-page-background dark:bg-page-background-dark'>
       <div className='flex'>
-        <div>
+        <div className='dark:bg-page-background-dark'>
           <Menu></Menu>
         </div>
-        <div>
+        <div className='w-full'>
           <Header props={<HeaderPart/>}></Header>
-          <div className='flex-none md:flex my-5 box-border'>
+          <div className='flex-none lg:flex-row lg:pb-2  sm:m-5 box-border dark:bg-page-background-dark sm:flex sm:flex-col sm:gap-96 md:flex-col  md:gap-0'>
             <Main></Main>
             <Statistic></Statistic>
           </div>

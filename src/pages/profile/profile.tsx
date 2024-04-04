@@ -6,7 +6,7 @@ import MainProfile from "@components/profile/main-profile";
 
 const ProfilePage = () => {
   return (
-    <div className='bg-page-background'>
+    <div className='bg-page-background dark:bg-page-background-dark h-screen'>
       <div className='flex'>
         <div>
           <Menu></Menu>
