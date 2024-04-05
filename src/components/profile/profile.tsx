@@ -8,7 +8,7 @@ import React from "react";
 
 const Profile =() => {
   return (
-    <div className="bg-white rounded-lg m-10 sm:py-30 dark:bg-article-background-dark ">
+    <div className="bg-white rounded-lg sm:py-30 dark:bg-article-background-dark ">
       <div className='flex justify-between p-6 pb-0 text-gray-soft text-sm'>
         <p>FAMILY ACCOUNT</p>
         <p className='hover:text-gray-dark cursor-pointer dark:hover:text-white'>Edit</p>

@@ -8,7 +8,7 @@ import cards from "@components/card/card-tabs";
 
 const Main = () => {
   return (
-    <div className='w-4/6 box-border mx-auto md:w-full h-screen'>
+    <div className='w-full lg:w-4/6 box-border mx-auto h-screen'>
       <p className='text-2xl dark:text-gray-soft'>My bills</p>
       <div>
         <ul

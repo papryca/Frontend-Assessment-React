@@ -11,9 +11,9 @@ const Home = () => {
         <div>
           <Menu></Menu>
         </div>
-        <div className='bg-page-background dark:bg-page-background-dark'>
+        <div className='bg-page-background dark:bg-page-background-dark mx-10'>
           <Header props={<HeaderPart />}></Header>
-          <div className='flex-none mx-2 md:flex md:flex-row md:justify-between sm:flex sm:flex-col sm:gap-3  my-5 box-border bg-page-background dark:bg-page-background-dark'>
+          <div className='flex-none gap-8 md:flex md:flex-row md:justify-between sm:flex sm:flex-col my-5 box-border bg-page-background dark:bg-page-background-dark'>
             <HomeSection></HomeSection>
             <Aside></Aside>
           </div>

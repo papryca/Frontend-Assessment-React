@@ -13,9 +13,9 @@ const Card = ({card}: CardProps) => {
           <div className="w-32 h-32 rounded-lg relative m-4 ring-1 ring-purple-medium shadow-custom sm:mx-auto">
             <img src={card.bill} alt="bill image" className="absolute w-full h-full rounded-lg"/>
           </div>
-          <form className="flex-auto px-3 pt-3 text-sm">
+          <form className="flex-auto px-3 pt-3 md:text-sm xm:text-xs">
             <div className="flex flex-wrap">
-              <h1 className="flex-auto font-primary text-sm dark:text-gray-soft">
+              <h1 className="flex-auto font-primary md:text-sm xm:text-xs dark:text-gray-soft">
                 Visited
                 <span className='bg-green-soft rounded-md px-2 py-1 text-green-bright ml-2'>New</span>
               </h1>

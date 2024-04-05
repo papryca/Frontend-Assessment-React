@@ -11,9 +11,9 @@ const ProfilePage = () => {
         <div>
           <Menu></Menu>
         </div>
-        <div className='w-full'>
+        <div className='w-full mx-10'>
           <Header props={<HeaderPart/>}></Header>
-          <div className='flex-none md:flex box-border'>
+          <div className='my-5 flex-none md:flex box-border gap-8'>
             <MainProfile></MainProfile>
             <Profile></Profile>
           </div>

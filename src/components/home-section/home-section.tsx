@@ -4,7 +4,7 @@ import LineChart from "@components/chart/chart";
 
 const HomeSection = () => {
   return (
-    <div className='lg:w-3/5 px-5 box-border'>
+    <div className='lg:w-3/5 box-border'>
       <Advertisement></Advertisement>
       <LineChart></LineChart>
     </div>

@@ -11,9 +11,9 @@ const Bills = () => {
         <div className='dark:bg-page-background-dark'>
           <Menu></Menu>
         </div>
-        <div className='w-full'>
+        <div className='w-full mx-10'>
           <Header props={<HeaderPart/>}></Header>
-          <div className='flex-none lg:flex-row lg:pb-2  sm:m-5 box-border dark:bg-page-background-dark sm:flex sm:flex-col sm:gap-96 md:flex-col  md:gap-0'>
+          <div className=' my-5 gap-10 lg:flex-row lg:pb-2 box-border dark:bg-page-background-dark sm:flex sm:flex-col md:flex-col'>
             <Main></Main>
             <Statistic></Statistic>
           </div>

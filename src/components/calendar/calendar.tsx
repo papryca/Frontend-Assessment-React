@@ -19,29 +19,7 @@ const Calendar = () => {
         onChange={setStartDate}
         className='dark:bg-article-background-dark dark:text-white'
       />
-      <p className='text-sm p-4 underline '>No medical bills and appointments due today</p>
-      <div className='bg-page-background rounded-md shadow-[-4px_0_#7e77e5] p-3 mb-1 dark:bg-page-background-dark dark:text-white'>
-        <div className='flex items-center gap-5'>
-          <img className="inline-block w-[10%] rounded-full ring-2 ring-white"
-               src={face2}
-               alt=""/>
-          <div>
-            <p className='text-sm'>Catrin-Thusday,September 13, 2023</p>
-            <p className=''>Therapist - 123 Main Street </p>
-          </div>
-        </div>
-      </div>
-      <div className='bg-page-background rounded-md shadow-[-4px_0_#7e77e5] p-3 dark:bg-page-background-dark dark:text-white'>
-        <div className='flex items-center gap-5'>
-          <img className="inline-block w-[10%] rounded-full ring-2 ring-white"
-               src={face1}
-               alt=""/>
-          <div>
-            <p className='text-sm'>Catrin-Thusday,September 13, 2023</p>
-            <p className=''>Therapist - 123 Main Street </p>
-          </div>
-        </div>
-      </div>
+      <p className='text-sm p-4 underline dark:text-white'>No medical bills and appointments due today</p>
     </div>
   );
 };
