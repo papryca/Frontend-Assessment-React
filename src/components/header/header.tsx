@@ -32,7 +32,7 @@ const Header = ({ props }: { props?: React.ReactNode }) => {
             </li>
             <li>
               <button type="button"
-                      className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-2 mr-4 text-center">
+                      className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-2 text-center">
                 <FontAwesomeIcon className='mr-3' icon={faPlus}/>
                 Add bill
               </button>
