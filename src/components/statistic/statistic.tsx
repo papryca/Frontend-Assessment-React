@@ -34,21 +34,21 @@ const Statistic = () => {
       <div
         className="p-4 text-center bg-white border-t-4 border-indigo-500 rounded-2xl shadow w-84 mt-8 dark:bg-article-background-dark lg:w-full md:w-1/3 md:m-0">
         <div className="overflow-hidden">
-          <div className="mb-8 text-2xl font-medium text-gray-800 dark:text-white">
+          <div className="mb-8 text-2xl font-medium text-gray-800 dark:text-white xl:text-4xl">
             Premium
           </div>
           <div className="mb-10 text-sm font-light leading-loose">
-            <div className="font-bold text-gray-800 dark:text-white">
+            <div className="font-bold text-gray-800 dark:text-white xl:text-2xl">
               5000 clients
             </div>
-            <div className='dark:text-white'>
+            <div className='dark:text-white xl:text-xl'>
               All features
             </div>
-            <div className='dark:text-white'>
+            <div className='dark:text-white xl:text-xl'>
               Free support
             </div>
           </div>
-          <div className="mb-2 text-2xl font-bold text-gray-500 dark:text-white">
+          <div className="mb-2 text-2xl font-bold text-gray-500 dark:text-white xl:text-4xl">
             <span>
                 249 $
             </span>
