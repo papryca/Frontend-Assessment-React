@@ -54,7 +54,7 @@ const Card = ({card}: CardProps) => {
                 <Link to={`/bill-summary/${card.index}`}>
                   <button type="button"
                           className="text-white bg-purple font-medium rounded-lg text-sm px-4 py-1 text-center">
-                  Check It
+                  View
                 </button>
                   </Link>
               </div>
