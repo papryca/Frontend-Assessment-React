@@ -23,41 +23,41 @@ const BillOverview = () => {
                 <img src={hospital} alt="Hospital image" className="w-4 h-4" />
                 <p className='text-sm text-gray-soft'>Provider's name</p>
               </div>
-              <p>{overview.providersName}</p>
+              <p className='dark:text-white'>{overview.providersName}</p>
               <div className='flex flex-row space-x-10'>
                 <div>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={user} alt="Hospital image" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>Patient name</p>
                   </div>
-                  <p>{overview.name}</p>
+                  <p className='dark:text-white'>{overview.name}</p>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={global} alt="Hospital image" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>Status</p>
                   </div>
-                  <p>{overview.status}</p>
+                  <p className='dark:text-white'>{overview.status}</p>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={money} alt="You owe" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>You owe</p>
                   </div>
-                  <p>{overview.owe}</p>
+                  <p className='dark:text-white'>{overview.owe}</p>
                 </div>
                 <div>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={calendar} alt="Hospital image" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>Visit date</p>
                   </div>
-                  <p>{overview.visitDate}</p>
+                  <p className='dark:text-white'>{overview.visitDate}</p>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={category} alt="Hospital image" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>Category</p>
                   </div>
-                  <p>{overview.category}</p>
+                  <p className='dark:text-white'>{overview.category}</p>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={due} alt="Hospital image" className="w-4 h-4" />
                     <p className='text-sm text-gray-soft'>Due date</p>
                   </div>
-                  <p>{overview.visitDue}</p>
+                  <p className='dark:text-white'>{overview.visitDue}</p>
                 </div>
               </div>
             </div>
