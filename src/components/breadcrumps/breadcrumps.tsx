@@ -13,7 +13,7 @@ function Breadcrumbs() {
   const pathParts = location.pathname.split('/').filter((part) => part !== '' && !part.match("[0-9]+"));
 
   return (
-    <div className='text-gray-dark text-sm md:text-md font-bold lg:text-2xl ml-5'>
+    <div className='text-gray-dark text-sm md:text-md font-bold lg:text-2xl ml-5 dark:text-white'>
       <button onClick={() => navigate('/')} className='text-gray-soft'>Home</button>
       {pathParts.map((part, index) => (
         <span key={part}>

@@ -15,7 +15,7 @@ const ServiceAccordion = () => {
       <h2>
         <button
           type="button"
-          className="flex items-center justify-between w-full font-medium text-left text-purple border-b"
+          className="flex items-center justify-between w-full font-medium text-left text-purple border-b dark:text-white"
           onClick={() => toggleAccordion(1)}
         >
           <div className='flex space-x-2'>
