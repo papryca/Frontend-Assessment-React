@@ -57,7 +57,7 @@ const MainProfile = () => {
             <dt className="text-sm font-medium text-gray-500 dark:text-white">
               Address
             </dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 dark:text-white">
               123 Grow St<br/>
               NY, USA 12345
             </dd>
@@ -66,7 +66,7 @@ const MainProfile = () => {
             <dt className="text-sm font-medium text-gray-500 dark:text-white">
               Login
             </dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 dark:text-white">
               john_smith
             </dd>
           </div>
