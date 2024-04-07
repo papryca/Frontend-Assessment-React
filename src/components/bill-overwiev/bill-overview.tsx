@@ -16,7 +16,7 @@ const BillOverview = () => {
       {overviews.map((overview, i) => {
         if ((i + 1).toString() === id) {
           return (
-            <div key={i} className='bg-white rounded-lg p-3 text-base relative dark:bg-article-background-dark'>
+            <div key={i} className='bg-white rounded-lg text-base relative dark:bg-article-background-dark'>
               <p className='text-sm text-gray-dark py-4 dark:text-white'>BILL OVERVIEW</p>
               <img src={overview.bill} alt="Bill image" className="w-full h-80 rounded-lg" />
               <div className='flex space-x-2 pt-2 items-baseline text-sm'>
