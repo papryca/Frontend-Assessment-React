@@ -15,14 +15,14 @@ const ServiceAccordion = () => {
       <h2>
         <button
           type="button"
-          className="flex items-center justify-between w-full font-medium text-left text-purple border-b dark:text-white"
+          className="flex items-center justify-between w-full font-medium text-left text-purple border-b"
           onClick={() => toggleAccordion(1)}
         >
           <div className='flex space-x-2'>
             <FontAwesomeIcon icon={faFileMedical} className='m-auto'/>
             <span className='text-base py-4'>Service breakdown</span>
           </div>
-          <FontAwesomeIcon icon={accordion ? faAngleDown : faAngleUp} className='text-gray-dark'/>
+          <FontAwesomeIcon icon={accordion ? faAngleDown : faAngleUp} className='text-gray-dark dark:text-white'/>
         </button>
       </h2>
       {services.map((service) => (<div
