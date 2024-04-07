@@ -11,7 +11,7 @@ const ServiceAccordion = () => {
   };
   return (
     <div className="w-full rounded-lg bg-white p-4 relative dark:bg-article-background-dark">
-      <p className='text-sm text-gray-dark pb-2'>BILL BREAKDOWN</p>
+      <p className='text-sm text-gray-dark pb-2 dark:text-white'>BILL BREAKDOWN</p>
       <h2>
         <button
           type="button"
@@ -29,8 +29,8 @@ const ServiceAccordion = () => {
         className={`${accordion ? 'block' : 'hidden'}`}
       >
           <ul className="list-inside list-none pl-6">
-            <li className="mb-2 relative">
-              <div className="w-4 h-4 absolute -left-6 top-1 bg-purple rounded-full dark:text-white"></div>
+            <li className="mb-2 relative dark:text-white">
+              <div className="w-4 h-4 absolute -left-6 top-1 bg-purple rounded-full"></div>
               Service {service.index} {service.name}
             </li>
           </ul>
