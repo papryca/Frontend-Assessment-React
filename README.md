@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-This project is a part of the internship assessment. The goal is to create a simple dashboard for a web app where users can view and interact with medical bills. The dashboard should display a list of medical bills and allow users to navigate to a detailed summary page for each bill.
+This dashboard is designed for families to track their medical appointments, monitor their medical expenses, and receive reminders to stay informed and organized. Users can conveniently compare their expenditures over time, manage upcoming appointments, and set reminders to ensure they stay up-to-date and never miss important events.
 
 ## 🛠️ Technology Stack
 
@@ -29,8 +29,8 @@ Open [https://precious-mochi-becaaa.netlify.app/](https://precious-mochi-becaaa.
 
 To set up and run the project locally, follow these steps:
 
-1. Clone the repository: `git clone git@github.com:papryca/Frontend-Assessment-React.git`
-2. Navigate to the project directory: `cd truffle-health`
+1. Clone the repository: `git@github.com:papryca/Health-app.git`
+2. Navigate to the project directory: `cd health-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
@@ -40,3 +40,5 @@ The application will open in your default browser, allowing you to explore and i
 
 ![docs/page1.png](docs/page1.png)
 ![docs/page1.png](docs/page2.png)
+![docs/page1.png](docs/page3.png)
+![docs/page1.png](docs/page4.png)
