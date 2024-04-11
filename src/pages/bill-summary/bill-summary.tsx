@@ -16,8 +16,8 @@ const BillSummary = () => {
         </div>
         <div className='w-full mx-10'>
           <Header props={<Breadcrumbs />} />
-          <div className='flex gap-8 md:flex my-5'>
-            <div className='flex w-full md:w-2/3 flex-col min-h-screen'>
+          <div className='flex gap-8 xm:flex my-5 xm:flex xm:flex-col xm:gap-8 lg:flex-row'>
+            <div className='flex w-full md:w-2/3 flex-col min-h-screen xm:w-full'>
               <ServiceAccordion></ServiceAccordion>
               <div className='flex flex-row-reverse hidden md:block absolute left-62 -bottom-1'>
                 <img src={pig} className='w-40 h-40 -bottom-1/3 right-10' alt="Pig illustration" />

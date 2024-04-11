@@ -12,11 +12,11 @@ import {useParams} from "react-router-dom";
 const BillOverview = () => {
   const { id } = useParams();
   return (
-    <div className='w-full md:w-1/3 px-5 md:px-0 my-5 md:my-0'>
+    <div className='w-full md:w-1/3 px-5 md:px-0 my-5 md:my-0 md:m-auto'>
       {overviews.map((overview, i) => {
         if ((i + 1).toString() === id) {
           return (
-            <div key={i} className='bg-white rounded-lg text-base relative dark:bg-article-background-dark'>
+            <div key={i} className='bg-white rounded-lg text-base relative p-4 dark:bg-article-background-dark'>
               <p className='text-sm text-gray-dark py-4 dark:text-white'>BILL OVERVIEW</p>
               <img src={overview.bill} alt="Bill image" className="w-full h-80 rounded-lg" />
               <div className='flex space-x-2 pt-2 items-baseline text-sm'>
@@ -24,7 +24,7 @@ const BillOverview = () => {
                 <p className='text-sm text-gray-soft'>Provider's name</p>
               </div>
               <p className='dark:text-white'>{overview.providersName}</p>
-              <div className='flex flex-row space-x-10'>
+              <div className='flex flex-row space-x-10 justify-between '>
                 <div>
                   <div className='flex space-x-2 pt-2 items-baseline'>
                     <img src={user} alt="Hospital image" className="w-4 h-4" />
