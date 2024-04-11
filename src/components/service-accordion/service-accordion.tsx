@@ -10,7 +10,7 @@ const ServiceAccordion = () => {
     setAccordion(!accordion);
   };
   return (
-    <div className="w-full rounded-lg bg-white relative dark:bg-article-background-dark">
+    <div className="w-full rounded-lg bg-white relative p-4 dark:bg-article-background-dark">
       <p className='text-sm text-gray-dark pb-2 dark:text-white'>BILL BREAKDOWN</p>
       <h2>
         <button
