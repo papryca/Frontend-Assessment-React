@@ -1,4 +1,4 @@
-# Frontend Assessment
+# Health App
 
 ## 📝 Description
 
