@@ -4,6 +4,22 @@
 
 This dashboard is designed for families to track their medical appointments, monitor their medical expenses, and receive reminders to stay informed and organized. Users can conveniently compare their expenditures over time, manage upcoming appointments, and set reminders to ensure they stay up-to-date and never miss important events.
 
+### 🎮 Functionality:
+
+- Home Page:  The main page where users can get an overview of their family's medical information.
+              Displays a summary of upcoming medical appointments and expenses.
+
+- Bills Page: A page dedicated to tracking medical bills and expenses.
+              Allows users to view the history of bills and analyze their status (paid/unpaid).
+              Provides a "View" button for each bill, enabling users to access detailed information about the bill, including procedure descriptions and other relevant details.
+
+- Appointment Page: A page for managing medical appointments.
+                    Enables users to view upcoming doctor visits, schedule new appointments, and manage existing ones.
+
+- Profile Page: A profile page where users can manage personal information and family member data.
+                Allows adding new family members, updating their medical and contact information, and configuring notification preferences.
+
+
 ## 🛠️ Technology Stack
 
 - React
