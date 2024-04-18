@@ -11,26 +11,23 @@ const Menu = () => {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-  const [theme, setTheme] = useState( 'dark');
+
+  const savedTheme = localStorage.getItem('theme');
+  const [theme, setTheme] = useState(savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
+    localStorage.setItem('theme', theme);
   }, [theme]);
 
   const changeMode = () => {
-    setTheme(theme === 'dark' ? 'light':'dark')
-  }
-  useEffect(() => {
-    if(window.matchMedia('(prefers-color-scheme:dark)').matches) {
-      setTheme('dark')
-    }
-    else {
-      setTheme('light')
-    }
-  }, []);
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+  };
   return (
     <div>
       <div className={`flex w-16 ${isMenuOpen ? 'lg:w-60' : 'lg:w-16'} duration-300 dark:bg-article-background-dark`}>

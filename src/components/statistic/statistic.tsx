@@ -4,7 +4,7 @@ import coins from "@assets/images/coins.svg";
 const Statistic = () => {
   return (
 
-    <div className=' rounded-lg p-3 mt-6 relative dark:bg-article-background-dark md:flex md:justify-between md:gap-3 lg:flex lg:flex-col lg:w-2/6 xl:flex xl:flex-col xl:w-2/6'>
+    <div className=' rounded-lg p-3 mt-6 relative md:flex md:justify-between md:gap-3 lg:flex lg:flex-col lg:w-2/6 xl:flex xl:flex-col xl:w-2/6'>
       <div className='md:w-1/3 lg:w-full sm:mt-10'>
         <div className="p-4 bg-white shadow-lg w-full rounded-2xl dark:bg-article-background-dark">
           <div className="flex items-center">
