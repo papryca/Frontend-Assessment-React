@@ -39,7 +39,7 @@ module.exports = {
             backgroundColor: {
                 'page-background': '#F6F6FE',
                 'page-background-dark': '#121212',
-                'article-background-dark': '#181818',
+                'article-background-dark': '#202020',
             },
             borderRadius: {
                 '4xl': '2rem',
