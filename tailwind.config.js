@@ -3,10 +3,12 @@ module.exports = {
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
     ],
+    darkMode: 'class',
     theme: {
         screens: {
+            xm: '320px',
             sm: '480px',
-            md: '768px',
+            md: '835px',
             lg: '976px',
             xl: '1440px',
         },
@@ -23,8 +25,12 @@ module.exports = {
                     'soft': '#b9d7a8',
                     'bright':'#407922'
                 },
+                'text': {
+                    'light': '#ffffff',
+                    'dark':'#407922'
+                },
                 'red': '#e86a74',
-                'red-soft':'#f5b7ba',
+                'red-soft':'#e3918d',
                 'red-bright':'#e0202c'
             },
             boxShadow: {
@@ -32,6 +38,8 @@ module.exports = {
             },
             backgroundColor: {
                 'page-background': '#F6F6FE',
+                'page-background-dark': '#121212',
+                'article-background-dark': '#202020',
             },
             borderRadius: {
                 '4xl': '2rem',

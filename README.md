@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Health App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 Description
 
-## Available Scripts
+This dashboard is designed for families to track their medical appointments, monitor their medical expenses, and receive reminders to stay informed and organized. Users can conveniently compare their expenditures over time, manage upcoming appointments, and set reminders to ensure they stay up-to-date and never miss important events.
+
+### 🎮 Functionality:
+
+- Home Page:  The main page where users can get an overview of their family's medical information.
+              Displays a summary of upcoming medical appointments and expenses.
+
+- Bills Page: A page dedicated to tracking medical bills and expenses.
+              Allows users to view the history of bills and analyze their status (paid/unpaid).
+              Provides a "View" button for each bill, enabling users to access detailed information about the bill, including procedure descriptions and other relevant details.
+
+- Appointment Page: A page for managing medical appointments.
+                    Enables users to view upcoming doctor visits, schedule new appointments, and manage existing ones.
+
+- Profile Page: A profile page where users can manage personal information and family member data.
+                Allows adding new family members, updating their medical and contact information, and configuring notification preferences.
+
+
+## 🛠️ Technology Stack
+
+- React
+- HTML
+- CSS
+- TypeScript 
+- Tailwind
+
+## 📜 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` ▶️
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000/](http://localhost:3000/) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `testing deployment` ▶️
 
-### `npm test`
+Open [https://precious-mochi-becaaa.netlify.app/](https://precious-mochi-becaaa.netlify.app/) to view it in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+To set up and run the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git@github.com:papryca/Health-app.git`
+2. Navigate to the project directory: `cd health-app`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will open in your default browser, allowing you to explore and interact with it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Screenshot`
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![docs/page1.png](docs/page1.png)
+![docs/page1.png](docs/page2.png)
+![docs/page1.png](docs/page3.png)
+![docs/page1.png](docs/page4.png)

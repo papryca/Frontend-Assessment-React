@@ -1,12 +1,28 @@
 import Menu from "@components/menu/menu";
+import Header from "@components/header/header";
+import HeaderPart from "@components/header-part/header-part";
+import Profile from "@components/profile/profile";
+import MainProfile from "@components/profile/main-profile";
 
-const Profile = () => {
+const ProfilePage = () => {
   return (
-    <div className='flex'>
-      <Menu></Menu>
-      <p className='m-80'>This is profile page</p>
+    <div className='bg-page-background dark:bg-page-background-dark min-h-screen'>
+      <div className='flex'>
+        <div>
+          <Menu></Menu>
+        </div>
+        <div className='w-full mx-10'>
+          <Header props={<HeaderPart/>}></Header>
+          <div className='my-5 flex-none md:flex box-border gap-8'>
+            <MainProfile></MainProfile>
+            <Profile></Profile>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   );
 };
 
-export default Profile;
+export default ProfilePage;

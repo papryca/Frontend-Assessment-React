@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import ReactCalendar from 'react-calendar';
 import './calendar.css';
+import face1 from "@assets/images/face1.png";
+import face2 from "@assets/images/face2.png";
 
 type ValuePiece = Date | null;
 
@@ -10,17 +12,14 @@ const Calendar = () => {
   const [startDate, setStartDate] = useState<Value>(new Date());
 
   return (
-    <div className='bg-white rounded-md p-4'>
-      <p className='text-gray-dark text-md'>CALENDAR</p>
+    <div className='bg-white rounded-md p-4 dark:dark:bg-article-background-dark'>
+      <p className='text-gray-dark text-md dark:text-white'>CALENDAR</p>
       <ReactCalendar
         value={startDate}
         onChange={setStartDate}
+        className='dark:bg-article-background-dark dark:text-white'
       />
-      <p className='text-sm p-4'>No medical bills due today</p>
-      <div className='bg-page-background rounded-md shadow-[-4px_0_#7e77e5] p-3'>
-        <p className='text-sm'>Thusday,September 13, 2023</p>
-        <p className=''>Bills from Provider's name</p>
-      </div>
+      <p className='text-sm p-4 underline dark:text-white'>No medical bills and appointments due today</p>
     </div>
   );
 };
